@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CqrsPattern.API", "CqrsPattern\CqrsPattern.API.csproj", "{DA6EF36A-E8C5-4F0E-965A-6353A4257FD1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2- Domain", "2- Domain", "{582016E1-42E9-4C87-80BA-A3E12BFA313F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CQRS.Domain", "CQRS.Domain\CQRS.Domain.csproj", "{033AE446-67C0-4640-B3E5-C3DE90B7B378}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1- Aplications", "1- Aplications", "{C6F90B2E-95D6-4C80-92AB-143E60CE8A37}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3- Repositories", "3- Repositories", "{E53841DF-A116-4CE3-B1B5-DF51994F48C2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CQRS.Repository", "CQRS.Repository\CQRS.Repository.csproj", "{F2A3BD2C-044D-4019-9376-2DD675E8442E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA6EF36A-E8C5-4F0E-965A-6353A4257FD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA6EF36A-E8C5-4F0E-965A-6353A4257FD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA6EF36A-E8C5-4F0E-965A-6353A4257FD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA6EF36A-E8C5-4F0E-965A-6353A4257FD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{033AE446-67C0-4640-B3E5-C3DE90B7B378}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{033AE446-67C0-4640-B3E5-C3DE90B7B378}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{033AE446-67C0-4640-B3E5-C3DE90B7B378}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{033AE446-67C0-4640-B3E5-C3DE90B7B378}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2A3BD2C-044D-4019-9376-2DD675E8442E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2A3BD2C-044D-4019-9376-2DD675E8442E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2A3BD2C-044D-4019-9376-2DD675E8442E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2A3BD2C-044D-4019-9376-2DD675E8442E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DA6EF36A-E8C5-4F0E-965A-6353A4257FD1} = {C6F90B2E-95D6-4C80-92AB-143E60CE8A37}
+		{033AE446-67C0-4640-B3E5-C3DE90B7B378} = {582016E1-42E9-4C87-80BA-A3E12BFA313F}
+		{F2A3BD2C-044D-4019-9376-2DD675E8442E} = {E53841DF-A116-4CE3-B1B5-DF51994F48C2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5EC575E7-9711-4F14-B280-ACBA49893A07}
+	EndGlobalSection
+EndGlobal
