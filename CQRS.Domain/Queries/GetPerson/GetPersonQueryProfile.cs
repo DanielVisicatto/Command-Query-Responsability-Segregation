@@ -8,7 +8,8 @@ namespace CQRS.Domain.Queries.GetPerson
     {
         public GetPersonQueryProfile()
         {
-            CreateMap<Person, GetPersonQueryResponse>().ForMember(fieldOutput => fieldOutput.Cpf, option => option.MapFrom(input => input.Cpf.FormatCpf()));
+            CreateMap<Person, GetPersonQueryResponse>().ForMember(fieldOutput => fieldOutput.Cpf, option => option.MapFrom(input => input.Cpf != null?
+            input.Cpf.FormatCpf() : null));
         }
     }
 }
