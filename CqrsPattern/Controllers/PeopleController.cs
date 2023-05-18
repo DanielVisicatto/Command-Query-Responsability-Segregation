@@ -1,9 +1,7 @@
 ﻿using CQRS.Domain.Commands.CreatePerson;
 using CQRS.Domain.Core;
-using CQRS.Domain.Domain;
-using CQRS.Domain.Queries.ListPerson;
 using CQRS.Domain.Queries.GetPerson;
-using Microsoft.AspNetCore.Http;
+using CQRS.Domain.Queries.ListPerson;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CqrsPattern.API.Controllers
